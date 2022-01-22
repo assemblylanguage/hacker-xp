@@ -1,0 +1,64 @@
+.iconsBar {
+    display: flex;
+    border-bottom: 1px solid #d8d2bd;
+    border-top: 1px solid #ffffff;
+    height: 50px;
+}
+
+.iconBarDecoration {
+    padding-left: 4px;
+}
+
+.iconContainer {
+    width: 90px;
+    height: 50px;
+    display: flex;
+}
+
+.iconContainer:hover {
+    text-decoration: none;
+}
+
+.iconButton {
+    padding: 6px;
+    margin: auto;
+    width: 70px;
+    height: 30px;
+}
+
+.iconButton:hover {
+    border-right: 1px solid #aca899;
+    border-bottom: 1px solid #aca899;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.iconButton:active {
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #aca899;
+    border-top: 1px solid #aca899;
+    background-color: #e2decd;
+}
+
+.iconImageContainer {
+    display: flex;
+}
+
+.iconImage {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.iconTextContainer {
+    display: flex;
+    margin-top: -1px;
+}
+
+.iconText {
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}

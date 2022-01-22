@@ -1,0 +1,36 @@
+.headerMenu {
+    display: flex;
+    border-bottom: 1px solid #d8d2bd;
+}
+
+.headerDecoration {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.headerDecorationImage {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 12px;
+    padding-left: 4px;
+}
+
+.headerMenuText {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 16px;
+}
+
+.headerMenuText::first-letter {
+    text-decoration: underline;
+}
+
+.headerMenuLogoContainer {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.headerMenuLogo {
+    border-left: 1px solid #d8d2bd;
+}

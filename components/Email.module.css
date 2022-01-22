@@ -1,0 +1,70 @@
+.emailContainer {
+    box-shadow: -1px -1px #716f64, -2px -2px #ffffff, -1px -2px #ffffff,
+        -2px -3px #7f9db9, -1px -3px #7f9db9, -2px 2px #ffffff, 2px 2px #ebeadb,
+        -1px 3px #7f9db9, 2px 2px #7f9db9;
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.emailTable {
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+.emailRow {
+    font-weight: bold;
+}
+
+.emailRowViewed {
+    font-weight: normal;
+}
+
+.emailRow:hover,
+.emailRowViewed:hover {
+    background-color: #ece9d8;
+}
+
+.header {
+    background-color: #ebeadb;
+}
+
+.tableHeader {
+    text-align: left;
+    font-weight: normal;
+    padding-left: 10px;
+    box-shadow: inset 1px 0px #c7c5b2, inset 2px 0px #ffffff;
+}
+
+.spacing {
+    box-shadow: inset 0px -1px #cbc7b8, inset 0px -2px #d6d2c2,
+        inset 0px -3px #e2decd;
+    height: 3px;
+}
+
+.rank {
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+}
+
+.mailImageContainer {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+@media screen and (max-width: 800px) {
+    .emailRow td:nth-child(2),
+    .emailRowViewed td:nth-child(2),
+    .tableHeader:nth-child(2),
+    .emailRow td:nth-child(3),
+    .emailRowViewed td:nth-child(3),
+    .tableHeader:nth-child(3),
+    .emailRow td:nth-child(5),
+    .emailRowViewed td:nth-child(5),
+    .tableHeader:nth-child(5),
+    .emailRow td:nth-child(6),
+    .emailRowViewed td:nth-child(6),
+    .tableHeader:nth-child(6) {
+        display: none;
+    }
+}

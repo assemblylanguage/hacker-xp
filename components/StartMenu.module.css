@@ -1,0 +1,86 @@
+.startMenuContainer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    display: flex;
+}
+
+.startMenuBar {
+    background-image: url('/assets/startMenuBackground.png');
+    flex-grow: 1;
+    display: flex;
+}
+
+.startMenuMainButton {
+    background-image: url('/assets/startMenuMainButton.png');
+    width: 102px;
+    height: 30px;
+}
+
+.startMenuMainButton:active {
+    background-image: url('/assets/startMenuMainButtonSelected.png');
+}
+
+.startMenuButtonContainer {
+    height: 30px;
+    display: flex;
+}
+
+.startMenuButtonContainer:hover {
+    text-decoration: none !important;
+}
+
+.startMenuButton {
+    background-image: url('/assets/startMenuButton.png');
+    width: 147px;
+    height: 25px;
+    display: flex;
+    margin: auto;
+}
+
+.startMenuButton:active {
+    background-image: url('/assets/startMenuButtonSelected.png');
+}
+
+.startMenuButtonImageContainer {
+    display: flex;
+}
+
+.startMenuButtonImage {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 16px;
+    width: 16px;
+}
+
+.startMenuButtonTextContainer {
+    color: #ffffff;
+    font-size: 12px;
+    margin: auto;
+    margin-left: 12px;
+    display: flex;
+}
+
+.startMenuButtonText {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4px;
+}
+
+.startMenuRightBar {
+    background-image: url('/assets/startMenuRightBackground.png');
+    margin: auto;
+    padding-left: 4px;
+    width: 40px;
+    height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .startMenuRightBorder,
+    .startMenuMainButton,
+    .startMenuRightBar {
+        display: none;
+    }
+}

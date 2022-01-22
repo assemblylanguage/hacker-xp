@@ -1,0 +1,36 @@
+.contributorSectionContainer {
+    border-left: 1px solid #aca899;
+    border-top: 1px solid #aca899;
+    margin-bottom: -3px;
+}
+
+.contributorContainer {
+    padding-top: 4px;
+    background-color: #ffffff;
+    border-left: 1px solid #aca899;
+    padding-bottom: 40px;
+}
+
+.contributorLinkContainer {
+    display: flex;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.contributorLink {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.contributorLink:hover {
+    text-decoration: underline;
+    background-color: #ece9d8;
+}
+
+.contributorLink:active {
+    background-color: #316ac5;
+    color: #ffffff !important;
+    outline: 1px solid #ce953a;
+    outline-offset: -1px;
+}

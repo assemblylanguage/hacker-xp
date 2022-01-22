@@ -1,0 +1,25 @@
+.sectionHeaderContainer {
+    border-left: 1px solid #aca899;
+    border-right: 1px solid #aca899;
+    display: flex;
+    border-bottom: 1px solid #aca899;
+    box-shadow: 1px 0px #ffffff, inset 0px 1px #ffffff, inset 1px 0px #ffffff;
+}
+
+.sectionHeaderTextContainer {
+    border-bottom: 1px solid #ece9d8;
+    background-color: #ece9d8;
+    font-size: 12px;
+    margin: 0px;
+    font-weight: normal;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+}
+
+.sectionHeaderCloseButtonContainer {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 6px;
+}
