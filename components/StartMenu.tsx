@@ -14,7 +14,7 @@ export default function StartMenu() {
             text: 'Github',
         },
         {
-            link: 'https://github.com/assemblylanguage/xp-paint',
+            link: 'https://paint-xp.com',
             image: 'xpPaint.png',
             text: 'Paint',
         },
