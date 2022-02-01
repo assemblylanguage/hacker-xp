@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Moder DOS 437';
+    src: url('/assets/moder-dos-437.ttf');
+}
+
+* {
+    color: #ffffff;
+    font-family: 'Moder DOS 437', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+html,
+body {
+    background-color: #0000ad;
+}
+
+p {
+    margin-bottom: 24px;
+}

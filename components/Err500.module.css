@@ -1,0 +1,25 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100vw;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+.errorTextContainer {
+    margin: auto;
+    width: 800px;
+}
+
+.technicalInformation {
+    margin: 0px;
+}
