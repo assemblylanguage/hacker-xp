@@ -23,6 +23,11 @@ export default function StartMenu() {
             image: 'hacker98.png',
             text: 'Hacker 98.css',
         },
+        {
+            link: 'https://serenity.video/feed/trending',
+            image: 'media.png',
+            text: 'Media Player',
+        },
     ];
 
     return (
